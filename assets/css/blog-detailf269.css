@@ -1,0 +1,29 @@
+/* > md */
+@media screen and (min-width: 768px){
+    body {
+        margin: 0 10rem !important;
+    }
+}
+/* < md */
+@media screen and (max-width: 767px){
+
+}
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    text-align: center !important;
+    background: #000 !important;
+}
+.back-button {
+    width: 75px;
+    margin-top: 1rem;
+}
+.back-button a, .back-button a:hover {
+    color:white;
+    margin-top: -20px !important;
+    display: block !important;
+    margin-left: 9px !important;
+}
+.blog-body{
+    margin-top: 2rem;
+}
